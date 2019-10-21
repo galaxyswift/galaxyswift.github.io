@@ -1,0 +1,155 @@
+/*  Copyright 2014 gokoururi
+    This work is free. You can redistribute it and/or modify it under the
+    terms of the Do What The Fuck You Want To Public License, Version 2,
+    as published by Sam Hocevar. See the COPYING file for more details. */
+
+body {
+    background: #000000;
+}
+
+.highlite {
+    color: #D2738B;
+}
+
+main {
+    background-color: #000000;
+    border-color: #D2738B;
+}
+
+h1 {
+    color: #C1B492;
+}
+
+.subtitle {
+    color: #C1B492;
+}
+
+.searchBar::-webkit-input-placeholder {
+    color: rgba(0,0,0,0);
+}
+.searchBar {
+    color: rgba(0,0,0,0);
+    border-color: #D2738B;
+}
+.searchBar:hover {
+    box-shadow: 0 0 0px #FFF;
+    border-color: #FFF;
+}
+.searchBar:focus::-webkit-input-placeholder{
+    color: rgba(100,100,100,1);
+}
+.searchBar:focus {
+    color: rgba(100,100,100,1);
+}
+.google {
+    background-image: url('../images/google.png');
+}
+.youtube {
+    background-image: url('../images/youtube.png');
+}
+.wikipedia {
+    background-image: url('../images/wikipedia.jpg');
+}
+
+/* Grey button */
+.buttonGrey > a,
+.buttonGrey > ul {
+    border-color: #D2738B;
+}
+.buttonGrey > a,
+.buttonGrey > ul > li > a {
+    color: #D2738B;
+    background: #000000;
+}
+.buttonGrey > a:after {
+    border-left-color: #D2738B;
+}
+.buttonGrey:hover > a,
+.buttonGrey > ul > li > a:hover {
+    color: #000000;
+    background: #D2738B;
+}
+.buttonGrey:hover > a,
+.buttonGrey:hover > ul {
+    border-color: #D2738B;
+}
+.buttonGrey:hover > a:after {
+    border-left-color: #000000;
+}
+
+/* Green button */
+.buttonGreen > a,
+.buttonGreen > ul {
+    border-color: #91b476;
+}
+.buttonGreen > a,
+.buttonGreen > ul > li > a {
+    color: #43644a;
+    background: #729a64;
+}
+.buttonGreen > a:after {
+    border-left-color: #91b476;
+}
+.buttonGreen:hover > a,
+.buttonGreen > ul > li > a:hover {
+    color: #269926;
+    background: #67E667;
+}
+.buttonGreen:hover > a,
+.buttonGreen:hover > ul {
+    border-color: #67E667;
+}
+.buttonGreen:hover > a:after {
+    border-left-color: #269926;
+}
+
+/* column standard colors */
+.column {
+    border-right-color: #D2738B;
+}
+.column > a,
+.column > ul > li:before {
+    color: #D2738B;
+}
+.column > a {
+    text-shadow: 0 0.0px #C279D2;
+}
+.column > ul > li > a {
+    color: #D2738B;
+}
+
+/* Row purple highlite */
+.columnPurple:hover > a,
+.columnPurple:hover > ul > li:before {
+    color: #3c3a5c;
+}
+.columnPurple:hover > a {
+    text-shadow: 0 0.0px #C1B492;
+}
+.columnPurple > ul > li > a:hover {
+    color: #C1B492;
+}
+
+/* Row pink highlite */
+.columnPink:hover > a,
+.columnPink:hover > ul > li:before {
+    color: #C1B492;
+}
+.columnPink:hover > a {
+    text-shadow: 0 0.5px #C1B492;
+}
+.columnPink > ul > li > a:hover {
+    color: #C1B492;
+}
+
+/* Row green highlite */
+.columnGreen:hover > a,
+.columnGreen:hover > ul > li:before {
+    color: #43644a;
+}
+.columnGreen:hover > a {
+    text-shadow: 0 0.5px #ECB4F8;
+}
+.columnGreen > ul > li > a:hover {
+    color: #C1B492;
+}
