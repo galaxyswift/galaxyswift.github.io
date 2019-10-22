@@ -32,8 +32,8 @@ h1 {
     border-color: #D2738B;
 }
 .searchBar:hover {
-    box-shadow: 0 0 0px #FFF;
-    border-color: #FFF;
+    box-shadow: 0 0 0px #D27389;
+    border-color: #D27389;
 }
 .searchBar:focus::-webkit-input-placeholder{
     color: rgba(100,100,100,1);
